@@ -1,0 +1,119 @@
+sidebar *,nav *{
+    font-family: "Helvetica Neue", "Helvetica", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Noto Sans CJK SC", "WenQuanYi Micro Hei", "Arial", sans-serif;
+    margin: 0;
+    padding: 0;
+    outline: none;
+    color: #333;
+    word-break: break-all;
+    text-decoration: none;
+}
+
+.pull-left {
+    float: left;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 50px;
+    display: block;
+    width: 100%;
+    background-color: #fff;
+    border-bottom: 1px solid #e5e5e5;
+    z-index: 1;
+    line-height: 50px;
+}
+
+nav img {
+    vertical-align: middle;
+    margin:0 5px 0 10px;
+}
+
+sidebar {
+    position: fixed;
+    height: 100%;
+    top: 51px;
+    left: 0;
+    width: 250px;
+    background-color: #fff;
+    border-right: 1px solid #e5e5e5;
+    font-size: 14px;
+}
+
+sidebar li {
+    list-style-type: none;
+    line-height: 40px;
+}
+
+sidebar li p {
+    cursor: pointer;
+    text-indent: 10px;
+}
+
+sidebar li p a {
+    display: block;
+    font-size: 14px;
+}
+
+/*sidebar li p:hover {
+    background-color: #e5e5e5;
+}
+
+sidebar li p:hover a {
+    color: #333;
+}*/
+
+sidebar li .ico_up .ico {
+    background-position: 0 -4px;
+}
+
+.hidden ul {
+    display: none;
+}
+
+.ico {
+    background-image: url(./assets/jiantou.png);
+    width: 8px;
+    height: 4px;
+    position: absolute;
+    margin-top: 18px;
+    right: 10px;
+}
+
+.common-level-1 p a {
+    padding-left: 10px;
+}
+
+.common-level-2 p a {
+    padding-left: 20px;
+}
+
+.level0 {
+    background-color: #F5F5F5;
+}
+
+.level1 {
+    background-color: #eaeaea;
+}
+
+.level0 .common-level-1 {
+    background-color: #EEEEEE;
+}
+.elem-active a {
+    background-color: #2196F3;
+    color: #fff;
+}
+
+sidebar li .ico_down .ico {
+    background-position: 0 0;
+}
+
+article {
+    position: absolute;
+    top: 60px;
+    left: 290px;
+    img {
+        max-width: 100%;
+    }
+}

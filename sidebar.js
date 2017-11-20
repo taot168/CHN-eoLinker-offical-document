@@ -38,7 +38,7 @@
                     })
                 }
             } else {
-                window.location.href = window.location.href + '?target=/html/index';
+                window.location.href = window.location.href + '?target=/md/index';
             }
 
         },

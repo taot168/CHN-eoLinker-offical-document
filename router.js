@@ -14,12 +14,12 @@
 				sref: '接口管理.简介',
 				href: '/md/接口管理/简介'
 			}, {
-				title: '快速入门',
-				sref: '接口管理.快速入门',
+				title: '开源版本',
+				sref: '接口管理.开源版本',
 				childList: [{
-					title: '流程图',
-					sref: 'apiManagement.product.doc',
-					href: '/md/apiManagement/product/doc'
+					title: '简介',
+					sref: '接口管理.开源版本.简介',
+					href: '/md/接口管理/开源版本/简介'
 				}]
 			}]
 		}, {
